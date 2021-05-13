@@ -1,0 +1,57 @@
+@charset "UTF-8";
+/* CSS Document */
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  margin-left: 2%;
+  margin-right: 2%;
+}
+#header {
+  background-color: bisque;
+}
+.container {
+  width: 100%;
+  background-color: white;
+  overflow: auto;
+}
+#left {
+  width: 30%;
+  background-color: white;
+  float: left;
+  order: 1;
+}
+#center {
+  width: 70%;
+  background-color: wheat;
+  float: right;
+  order: 2
+}
+.img{
+	width: 100%;
+	overflow: auto;
+}
+#img1{
+	width: auto;
+	order: 1;
+	float: left;
+}
+#img2{
+	width: auto;
+	order: 2;
+	float: left;
+}
+#img3{
+	width: auto;
+	order: 3;
+	float: left;
+}
+
+#footer {
+  background-color: white;
+}
+#contact{
+	margin: auto;
+}
